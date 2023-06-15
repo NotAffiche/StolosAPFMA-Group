@@ -1,0 +1,67 @@
+.container {
+  background-color: #ccc;
+  width: 80%;
+  margin: auto;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.headerDriver {
+  display: flex;
+  align-items: flex-end;
+}
+
+.headerDriver h1 {
+  margin-bottom: 0;
+}
+
+.headerDriver img {
+  height: 50px;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.line {
+  border-top: 3px solid #000;
+}
+
+.one {
+  margin: 5px;
+  margin-right: 0;
+}
+.one input[type=text] {
+  width: 64vw;
+  height: 2vw;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.one button {
+  margin: 5px;
+  font-size: 1.2vw;
+  
+}
+
+.two li {
+  border: #000 1px solid;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  list-style: none;
+  display: flex;
+}
+
+.two li:hover {
+  background-color: lightgrey;
+}
+.icons {
+  margin-left: auto;
+  margin-right: 0;
+  margin: 5;
+}
+
+.addPopup span {
+  display: inline-block;
+  margin: 15px;
+}
+

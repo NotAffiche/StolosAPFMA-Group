@@ -1,0 +1,31 @@
+.container {
+  background-color: #ccc;
+  width: 70vw;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+.buttons {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 0.5vw;
+}
+
+.save,
+.cancel {
+  text-decoration: none;
+  margin: 10px;
+  padding: 3px;
+  border-radius: 25px;
+  background-color: #2397d3;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.save:hover,
+.cancel:hover {
+  background-color: #00d4ff;
+  cursor: pointer;
+}

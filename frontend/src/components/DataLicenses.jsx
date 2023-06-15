@@ -1,0 +1,16 @@
+export const Licenses = [
+  { value: 'AM', label: 'AM' },
+  { value: 'A1', label: 'A1' },
+  { value: 'A2', label: 'A2' },
+  { value: 'A', label: 'A' },
+  { value: 'B', label: 'B' },
+  { value: 'C1', label: 'C1' },
+  { value: 'C', label: 'C' },
+  { value: 'D1', label: 'D1' },
+  { value: 'D', label: 'D' },
+  { value: 'BE', label: 'BE' },
+  { value: 'C1E', label: 'C1E' },
+  { value: 'D1E', label: 'D1E' },
+  { value: 'DE', label: 'DE' },
+  { value: 'G', label: 'G' },
+];

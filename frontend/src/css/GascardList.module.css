@@ -1,0 +1,88 @@
+.container {
+  background-color: #ccc;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 1vw;
+}
+.search{
+  border-radius: 25px;
+  text-decoration: none;
+  padding: 0.5vw;
+  padding-left: 2vw;
+  width: 67vw;
+  display: block;
+  margin: auto;
+  background-color: white;
+  border: 0px solid;
+  margin-bottom: 1vw;
+}
+.container li {
+  padding: 0;
+  font-size: 1.2vw;
+  
+}
+.container a span{
+  visibility: hidden;
+  color: white;
+  display: block;
+}
+.container a,.container a:link,.container a:visited{
+  text-decoration: none;
+  color: black;
+  padding: 1vw;
+  display: flex;
+  justify-content: space-between;
+}
+.container a:hover span{
+  visibility: visible;
+}
+.container a:hover{
+  color: white;
+  background-color: #2397d3;
+  border-radius: 25px;
+}
+.update{
+  text-decoration: none;
+  color: #ccc !important;
+  margin: 0;
+  display: inline !important;
+}
+.update:hover{
+  color: white !important;
+}
+.headerPage {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1vw;
+}
+  
+.headerPage h1 {
+  font-size: 2vw;
+  margin: auto;
+}
+  
+.headerPage img {
+  height: 40px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.columns{
+  columns: 3;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width:600px) {
+  .columns{
+    columns: 2;
+    width: 70vw;
+  }
+  .container li{
+    font-size: 3vw;
+  }
+  .container h1{
+    font-size: 3vw;
+  }
+}

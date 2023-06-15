@@ -1,0 +1,34 @@
+.header{
+    width: 90%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.headerLogo{
+    margin: 0;
+    margin-top:10%;
+    width: 80%;
+    animation: rotation 10s infinite linear;
+}
+
+.headerTitle h1{
+    font-size: 5.2vw;
+    margin: 0;
+    margin-top:1% ;
+}
+
+.headerTitle h2{
+    font-size: 2vw;
+    margin: 0;
+    margin-top: 5%;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

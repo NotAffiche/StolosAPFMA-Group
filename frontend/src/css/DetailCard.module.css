@@ -1,0 +1,38 @@
+.container {
+  background-color: #ccc;
+  width: 65vw;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+.buttons {
+  display: flex;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  margin-top: 0.5vw;
+}
+
+.delete,
+.edit,
+.back {
+  text-decoration: none;
+  border-style: none;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 25px;
+  background-color: #2397d3;
+  color: white;
+  font-size: 1.2vw;
+  text-align: center;
+  width: 100vw;
+}
+
+.edit:hover,
+.back:hover {
+  background-color: #00d4ff;
+  cursor: pointer;
+}
+.delete:hover {
+  background-color: red;
+  cursor: pointer;
+}
